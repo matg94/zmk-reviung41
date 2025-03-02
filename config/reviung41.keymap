@@ -36,10 +36,10 @@
             //                       |     |     | RET | ADJ |     |
 
             bindings = <
-&kp GRAVE  &kp F1        &kp F2  &kp F3  &kp F4  &kp F5          &kp F6    &kp F7     &kp F8     &kp F9     &kp F10  &kp DEL
-&trans     &trans        &trans  &trans  &trans  &trans          &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp F11  &kp EQUAL
-&trans     &kp LEFT_ALT  &trans  &trans  &trans  &trans          &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp F12  &kp BACKSLASH
-                                 &trans  &trans          &trans            &trans     &mo 3
+&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp NUMBER_5               &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp DEL
+&trans     &trans        &trans        &trans        &kp LEFT_BRACKET  &kp RIGHT_BRACKET          &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT     &kp F11       &kp EQUAL
+&trans     &kp LEFT_ALT  &trans        &trans        &trans            &trans                     &kp HOME      &kp PG_DN     &kp PG_UP     &kp END       &kp F12       &kp BACKSLASH
+                                       &trans        &trans                               &trans                &trans        &mo 3
             >;
         };
 
@@ -51,10 +51,10 @@
             //                       |     | ADJ | BSPC |    |     |
 
             bindings = <
-&kp TAB  &kp N1        &kp N2  &kp N3  &kp N4  &kp N5                    &kp N6             &kp N7  &kp N8  &kp N9  &kp N0  &kp DEL
-&trans   &trans        &trans  &trans  &trans  &kp LEFT_BRACKET          &kp RIGHT_BRACKET  &trans  &trans  &trans  &trans  &trans
-&trans   &kp LEFT_ALT  &trans  &trans  &trans  &trans                    &trans             &trans  &trans  &trans  &trans  &trans
-                               &mo 3   &trans                    &trans                     &trans  &trans
+&kp TAB  &kp F1        &kp F2  &kp F3  &kp F4  &kp F5          &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp DEL
+&trans   &trans        &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &kp F11  &trans
+&trans   &kp LEFT_ALT  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &kp F12  &trans
+                               &mo 3   &trans          &trans          &trans  &trans
             >;
         };
 
@@ -66,10 +66,10 @@
             //                                              |     |     |     |     |     |
 
             bindings = <
-&rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_EFF  &none   &rgb_ug RGB_TOG          &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
-&rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_EFR  &none   &none                    &none         &none         &none         &none         &none         &none
-&none            &none            &none            &none            &none   &none                    &sys_reset    &none         &none         &none         &none         &none
-                                                   &trans           &trans                   &tog 3                &trans        &trans
+&rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_EFF  &none   &rgb_ug RGB_TOG             &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
+&rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_EFR  &none   &none                       &none         &none         &none         &none         &none         &none
+&none            &none            &none            &none            &none   &none                       &sys_reset    &none         &none         &none         &none         &none
+                                                   &trans           &trans                   &soft_off                &trans        &trans
             >;
         };
     };
